@@ -4,7 +4,13 @@ local modInfo = {
     version = "0.0.1",
     type = "world",
     developer = "SirLich",
-    preview = "assets/preview.jpg"
+    preview = "assets/preview.jpg",
+    dependencies = {
+        {
+            modId = "SirLich.hammerstone-framework",
+            version = "*" -- Match any version
+        }
+    }
 }
 
 return modInfo
